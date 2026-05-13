@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <div class="particulas"></div>
+
     <nav class="navg">
         <ul class="menu">
             <li>
@@ -51,20 +54,29 @@
         <div class="projetos-caixa">
             <div class="projetos-card">
                 <img src="img/doaPetz.png" alt="foto site DoPetz" class="progeto-imagem">
-                <h3 class="info-projetos">Site doação de Pets</h3>
-                <p class="pargrafo-projetos">Visual de um site pensado para aqueles que querem doar ou adotar um Pet</p>
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Site doação de Pets</h3>
+                    <p class="paragrafo-projetos">Visual de um site pensado para aqueles que querem doar ou adotar um
+                        Pet</p>
+                </div>
             </div>
             <div class="projetos-card">
                 <img src="img/fotoControleDeVendas.png" alt="foto sistema de vendas" class="progeto-imagem">
-                <h3 class="info-projetos">Sistema de controle de vendas</h3>
-                <p class="pargrafo-projetos">Sistema desktop para controle de vendas de supermercados e outros. Conta
-                    com um banco de dados sólido e sistema completo de admnistração do sistema(Feito em c#)</p>
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Sistema de controle de vendas</h3>
+                    <p class="paragrafo-projetos">Sistema desktop para controle de vendas de supermercados e outros.
+                        Conta
+                        com um banco de dados sólido e sistema completo de admnistração do sistema(Feito em c#)</p>
+                </div>
             </div>
             <div class="projetos-card">
                 <img src="img/termoJogo.png" alt="foto jogo inspirado no termo" class="progeto-imagem">
-                <h3 class="info-projetos">Jogo de adivinhação de palavras</h3>
-                <p class="pargrafo-projetos">Jogo inspirado no jogo "Termo", que consiste em adivinhas apalavra correta
-                </p>
+                <div class="caixa-texto-projetos">
+                    <h3 class="info-projetos">Jogo de adivinhação de palavras</h3>
+                    <p class="paragrafo-projetos">Jogo inspirado no jogo "Termo", que consiste em adivinhas apalavra
+                        correta
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -72,9 +84,13 @@
     <section id="contatos" class="contatos">
         <h2 class="contatos-titulo">Contatos</h2>
         <form class="formulario-contato" id="formulario">
-            <div class="grupo-form"><input placeholder="Nome"></div>
-            <div class="grupo-form"><textarea placeholder="Digite sua mensagem"></textarea></div>
-
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
         </form>
     </section>
 
