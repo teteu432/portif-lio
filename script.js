@@ -15,3 +15,21 @@ function enviarWhats(events) {
 
     window.open(url, '_blank')
 }
+
+const body = document.body;
+
+document.addEventListener("mousemove", (e) => {
+
+    const particula = document.createElement("div");
+
+    particula.classList.add("rastro");
+
+    particula.style.left = e.pageX + "px";
+    particula.style.top = e.pageY + "px";
+
+    body.appendChild(particula);
+
+    setTimeout(() => {
+        particula.remove();
+    }, 600);
+});
