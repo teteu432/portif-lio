@@ -83,18 +83,18 @@
 
     <section id="contatos" class="contatos">
         <h2 class="contatos-titulo">Contatos</h2>
-        <form class="formulario-contato" id="formulario">
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="5" id="mensagem"></textarea>
             </div>
             <button type="submit" class="botao-form">Enviar WhatsApp</button>
         </form>
     </section>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
