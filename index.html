@@ -1,100 +1,677 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mateus | Portfólio</title>
+
+    <title>Mateus Jesus | Desenvolvedor Front-End</title>
+
+    <meta name="description"
+        content="Portfólio de Mateus Jesus, Desenvolvedor Front-End especializado em HTML, CSS, JavaScript, React e C#.">
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-    <div class="particulas"></div>
+    <div class="background"></div>
 
-    <nav class="navg">
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">inicio</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contato</a>
-            </li>
-        </ul>
-    </nav>
+    <!-- ================= NAVBAR ================= -->
 
-    <main id="inicio" class="cabecalho">
-        <img src="img/fotoPerfil.png" alt="Foto Mateus Jesus" class="foto-Perfil">
-        <h1>Mateus Jesus</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
+    <header>
 
-    </main>
+        <nav class="navbar">
 
-    <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-                Olá, me chamo Mateus
-                Sou desenvolvedor Front-End, com conhecimentos em JavaScript, HTML, CSS e React. Sou formado em Análise
-                e Desenvolvimento de Sistemas e apaixonado por tecnologia e criação de interfaces modernas e funcionais.
+            <h2 class="logo">
+                Mateus<span>.</span>
+            </h2>
 
-                Estou sempre buscando evoluir minhas habilidades e desenvolver projetos cada vez mais completos.
+            <ul>
+
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#habilidades">Habilidades</a>
+                </li>
+
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-text">
+
+            <span class="tag">
+                👋 Hi, I'm Mateus
+            </span>
+
+            <h1>
+                Mateus Jesus
+            </h1>
+
+            <h2>
+                Desenvolvedor Front-End
+            </h2>
+
+            <p>
+
+                Desenvolvedor apaixonado por tecnologia, especializado em
+                HTML, CSS, JavaScript e React.
+                Também possuo experiência com C#, SQL Server e desenvolvimento
+                de aplicações desktop.
+
             </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projetos" class="btn-primary">
+                    Ver Projetos
+                </a>
+
+                <a href="curriculo.pdf" target="_blank" class="btn-secondary">
+                    <i class="fa-solid fa-download"></i>
+                    Currículo
+                </a>
+
+            </div>
+
+            <div class="social">
+
+                <a href="https://github.com/teteu432" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mateus-jesus19/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://wa.me/5511950549974" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+
         </div>
+
+        <div class="hero-image">
+
+            <img src="img/fotoPerfil.png"
+                alt="Foto de Mateus Jesus">
+
+        </div>
+
     </section>
 
-    <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus projetos</h2>
-        <div class="projetos-caixa">
-            <div class="projetos-card">
-                <img src="img/doaPetz.png" alt="foto site DoPetz" class="progeto-imagem">
-                <div class="caixa-texto-projetos">
-                    <h3 class="info-projetos">Site doação de Pets</h3>
-                    <p class="paragrafo-projetos">Visual de um site pensado para aqueles que querem doar ou adotar um
-                        Pet</p>
-                </div>
+    <!-- ================= SOBRE ================= -->
+
+    <section class="sobre reveal" id="sobre">
+
+        <div class="titulo">
+
+            <span>Quem sou eu</span>
+
+            <h2>Sobre Mim</h2>
+
+        </div>
+
+        <div class="sobre-container">
+
+            <div class="sobre-texto">
+
+                <p>
+
+                    Meu nome é <strong>Mateus Jesus</strong>.
+                    Sou formado em Análise e Desenvolvimento de Sistemas e
+                    apaixonado por criar interfaces modernas, intuitivas e
+                    responsivas.
+
+                </p>
+
+                <p>
+
+                    Tenho conhecimentos em HTML, CSS, JavaScript, React,
+                    C#, SQL Server e Git.
+                    Estou constantemente estudando novas tecnologias para
+                    desenvolver soluções cada vez mais completas.
+
+                </p>
+
+                <p>
+
+                    Atualmente busco oportunidades para atuar como
+                    Desenvolvedor Front-End ou Full Stack Júnior,
+                    contribuindo com projetos desafiadores e evoluindo
+                    profissionalmente.
+
+                </p>
+
             </div>
-            <div class="projetos-card">
-                <img src="img/fotoControleDeVendas.png" alt="foto sistema de vendas" class="progeto-imagem">
-                <div class="caixa-texto-projetos">
-                    <h3 class="info-projetos">Sistema de controle de vendas</h3>
-                    <p class="paragrafo-projetos">Sistema desktop para controle de vendas de supermercados e outros.
-                        Conta
-                        com um banco de dados sólido e sistema completo de admnistração do sistema(Feito em c#)</p>
-                </div>
-            </div>
-            <div class="projetos-card">
-                <img src="img/termoJogo.png" alt="foto jogo inspirado no termo" class="progeto-imagem">
-                <div class="caixa-texto-projetos">
-                    <h3 class="info-projetos">Jogo de adivinhação de palavras</h3>
-                    <p class="paragrafo-projetos">Jogo inspirado no jogo "Termo", que consiste em adivinhas apalavra
-                        correta
+
+            <div class="sobre-cards">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>Desenvolvimento</h3>
+
+                    <p>
+
+                        Criação de aplicações modernas utilizando as
+                        principais tecnologias do mercado.
+
                     </p>
+
                 </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <h3>Projetos</h3>
+
+                    <p>
+
+                        Desenvolvimento de projetos pessoais focados em boas
+                        práticas, desempenho e experiência do usuário.
+
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <h3>Aprendizado</h3>
+
+                    <p>
+
+                        Sempre estudando novas ferramentas e tecnologias para
+                        evoluir como desenvolvedor.
+
+                    </p>
+
+                </div>
+
             </div>
+
         </div>
+
     </section>
 
-    <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Contatos</h2>
-        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
+    <!-- HABILIDADES -->
+
+        <!-- ================= HABILIDADES ================= -->
+
+    <section class="habilidades reveal" id="habilidades">
+
+        <div class="titulo">
+            <span>Minhas Tecnologias</span>
+            <h2>Habilidades</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Estruturação semântica e acessível.</p>
             </div>
-            <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="5" id="mensagem"></textarea>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Layouts responsivos, Flexbox, Grid e animações.</p>
             </div>
-            <button type="submit" class="botao-form">Enviar WhatsApp</button>
-        </form>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interatividade, DOM e consumo de APIs.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+                <p>Componentização e desenvolvimento SPA.</p>
+            </div>
+
+
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git</h3>
+                <p>Versionamento e colaboração em projetos.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Hospedagem de projetos e portfólio.</p>
+            </div>
+
+        </div>
+
     </section>
+
+    <!-- ================= EXPERIÊNCIA ================= -->
+
+    <section class="experiencia reveal" id="experiencia">
+
+        <div class="titulo">
+            <span>Minha Jornada antes da programação</span>
+            <h2>Experiência</h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <span>2025 - Atual</span>
+
+                    <h3>Jovem Aprendiz • Atento</h3>
+
+                    <p>
+
+                        Atuação na equipe de Field Service,
+                        auxiliando processos internos,
+                        suporte operacional e desenvolvimento
+                        de conhecimentos em tecnologia.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <span>2024</span>
+
+                    <h3>Jovem Aprendiz • Casas Bahia</h3>
+
+                    <p>
+
+                        Desenvolvimento de dashboards em Power BI,
+                        criação de painel para controle de banco de horas
+                        e apoio às atividades administrativas.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-content">
+
+                    <span>Anteriormente</span>
+
+                    <h3>ACW Refrigeração</h3>
+
+                    <p>
+
+                        Auxílio em instalações,
+                        manutenção preventiva,
+                        higienização e reparos
+                        em sistemas de ar-condicionado.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJETOS ================= -->
+
+    <section class="projetos reveal" id="projetos">
+
+        <div class="titulo">
+
+            <span>Meu Trabalho</span>
+
+            <h2>Projetos</h2>
+
+        </div>
+
+        <div class="projetos-grid">
+
+            <!-- Projeto 1 -->
+
+            <div class="projeto-card">
+
+                <img src="img/doaPetz.png"
+                    alt="Projeto Doa Pet">
+
+                <div class="projeto-info">
+
+                    <h3>Doa Pet</h3>
+
+                    <p>
+
+                        Plataforma desenvolvida para facilitar
+                        a adoção e doação responsável de animais.
+
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <div class="projeto-links">
+
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Demo
+                        </a>
+
+                        <a href="#" target="_blank">
+
+                            <i class="fab fa-github"></i>
+
+                            Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Projeto 2 -->
+
+            <div class="projeto-card">
+
+                <img src="img/fotoControleDeVendas.png"
+                    alt="Sistema de Controle">
+
+                <div class="projeto-info">
+
+                    <h3>Sistema de Vendas</h3>
+
+                    <p>
+
+                        Sistema desktop para gerenciamento
+                        de vendas, estoque e usuários.
+
+                    </p>
+
+                    <div class="tags">
+
+                        <span>C#</span>
+                        <span>SQL Server</span>
+                        <span>WinForms</span>
+
+                    </div>
+
+                    <div class="projeto-links">
+
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Demo
+                        </a>
+
+                        <a href="#" target="_blank">
+
+                            <i class="fab fa-github"></i>
+
+                            Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Projeto 3 -->
+
+            <div class="projeto-card">
+
+                <img src="img/termoJogo.png"
+                    alt="Jogo Termo">
+
+                <div class="projeto-info">
+
+                    <h3>Jogo de Palavras</h3>
+
+                    <p>
+
+                        Jogo inspirado no Termo,
+                        desenvolvido utilizando
+                        JavaScript puro.
+
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <div class="projeto-links">
+
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Demo
+                        </a>
+
+                        <a href="#" target="_blank">
+
+                            <i class="fab fa-github"></i>
+
+                            Código
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+         <!-- ================= CONTATO ================= -->
+
+    <section class="contato reveal" id="contato">
+
+        <div class="titulo">
+            <span>Vamos conversar?</span>
+            <h2>Entre em Contato</h2>
+        </div>
+
+        <div class="contato-container">
+
+            <div class="contato-info">
+
+                <h3>Estou disponível para novas oportunidades.</h3>
+
+                <p>
+                    Se você gostou do meu trabalho ou deseja conversar sobre
+                    projetos, freelances ou oportunidades de emprego,
+                    será um prazer falar com você.
+                </p>
+
+                <div class="contato-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+                        <strong>E-mail</strong>
+                        <p>mateus.silvajesus19@email.com</p>
+                    </div>
+
+                </div>
+
+                <div class="contato-item">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p>(11) 95054-9974</p>
+                    </div>
+
+                </div>
+
+                <div class="contato-item">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <p>www.linkedin.com/in/mateus-jesus19</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form id="formulario" class="formulario">
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Seu nome"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Seu e-mail"
+                    required>
+
+                <textarea
+                    id="mensagem"
+                    rows="7"
+                    placeholder="Digite sua mensagem..."
+                    required></textarea>
+
+                <button type="submit">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    Enviar Mensagem
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <h2>Mateus Jesus</h2>
+
+            <p>
+                Desenvolvedor Front-End apaixonado por tecnologia,
+                desenvolvimento web e criação de experiências modernas.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="https://github.com/teteu432" target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="www.linkedin.com/in/mateus-jesus19" target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="https://wa.me/5511950549974" target="_blank">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Mateus Jesus.
+                Todos os direitos reservados.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Botão voltar ao topo -->
+
+    <button id="topButton">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- Script -->
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
