@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:cursive;
+}
+
+body{
+  background:#FFF36E;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+  padding:15px;
+}
+
+h1{
+  text-align:center;
+}
+
+.regras{
+  width:700px;
+  max-width:95%;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  border:2px solid black;
+}
+
+.regras p{
+  margin-bottom:8px;
+}
+
+.verde{
+  color:green;
+  font-weight:bold;
+}
+
+.amarelo{
+  color:goldenrod;
+  font-weight:bold;
+}
+
+.cinza{
+  color:black;
+  font-weight:bold;
+}
+
+.game{
+  display:flex;
+  flex-direction:column;
+}
+
+.linha{
+  display:flex;
+}
+
+.linha button{
+  width:70px;
+  height:70px;
+  margin:3px;
+  border-radius:5px;
+  border:2px solid black;
+  background:rgb(90,73,73);
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.correta{
+  background:green !important;
+}
+
+.existe{
+  background:goldenrod !important;
+}
+
+.errada{
+  background:black !important;
+}
+
+/* TECLADO */
+
+.teclado{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.linha-teclado{
+  display:flex;
+  justify-content:center;
+  gap:4px;
+}
+
+.tecla{
+  width:35px;
+  height:50px;
+  border:none;
+  border-radius:5px;
+  background:white;
+  font-weight:bold;
+}
+
+.especial{
+  width:70px;
+}
+
+/* CELULAR */
+
+@media(max-width:600px){
+
+  .linha button{
+    width:52px;
+    height:52px;
+    font-size:22px;
+  }
+
+  .tecla{
+    width:28px;
+    height:45px;
+    font-size:12px;
+  }
+
+  .especial{
+    width:60px;
+  }
+
+  .regras{
+    font-size:14px;
+  }
+
+}
